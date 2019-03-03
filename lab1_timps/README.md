@@ -43,3 +43,177 @@ Builder pattern solves the issue with large number of optional parameters and in
 Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing.
 
 Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs. Prototype design pattern uses java cloning to copy the object.
+
+## Task Implementation
+## Singleton and Factory Design Pattern
+**Singleton** and **Factory** Design Pattern were implemented in: **PersonFactory.java** and **JobFactory.java** classes.
+Here is an example of implementation of both design patterns in **PersonFactory.java** class.
+```java
+//Singleton design pattern
+//Factory design pattern
+public class PersonFactory implements AbstractFactory < Person > {
+    private PersonFactory() {};
+
+    @Override
+    public Person create(String personType) {
+        if ("Employee".equalsIgnoreCase(personType)) {
+            return new Employee();
+        } else if ("Employer".equalsIgnoreCase(personType)) {
+            return new Employer();
+        }
+        return null;
+    }
+
+    private static class PersonFactoryHelper {
+        private static final PersonFactory INSTANCE = new PersonFactory();
+    }
+    public static PersonFactory getInstance() {
+        return PersonFactoryHelper.INSTANCE;
+    }
+}
+```
+- For implementing singleton design pattern I used __"Bill Pugh Singleton Implementation"__.
+You can read [here](https://www.google.com) about that kind of implementation.
+- __Factory Design Pattern__ - according to an input the Factory class will return one of the sub-class **Employee** or **Employer** of the super class **Person**.
+
+I could combine these 2 design patterns because according to the rules of **Factory Design Pattern**
+we can keep Factory class  **Singleton** or we can keep the method that returns the subclass as  **static**, so I chose to keep  Factory class  **Singleton**.
+
+
+## Abstract Factory Design Pattern
+**Abstract Factory Design Pattern** was implemented using: **AbstractFactory .java**, **FactoryProvider.java**, **PersonFactory.java** and **JobFactory.java** classes.
+The code of **PersonFactory.java** and **JobFactory.java** is written  [above](#markdown-header-singleton-and-factory-design-pattern), so I won't put it here.
+
+First of all we need to create a Abstract Factory **interface** or **abstract class**.
+```java
+//Abstract factory design pattern
+public interface AbstractFactory < T > {
+    T create(String type);
+}
+```
+After that we have to create Factory classes which will implement that Abstract Factory interface.
+Here were created **FactoryProvider.java** and **PersonFactory.java** classes.
+
+After creating Factory classes we need to create a **FactoryProvider.java** class which will return an instance of factory based on input.
+```java
+public class FactoryProvider {
+
+    public static AbstractFactory getFactory(String choice) {
+        if ("Person".equalsIgnoreCase(choice)) {
+            return PersonFactory.getInstance();
+        } else if ("Job".equalsIgnoreCase(choice)) {
+            return JobFactory.getInstance();
+        }
+        return null;
+    }
+}
+```
+After that we can use received factory for creating objects as we did in **Factory Design Pattern**.
+
+
+## Builder Design Pattern
+**Builder Design Pattern ** was implemented in: **ITCompany.java** class.
+
+```java
+//Builder pattern
+public class ITCompany {
+
+    private String name;
+    private List < Person > persons;
+    private List < Job > jobs;
+
+    private ITCompany(ITCompanyBuilder itCompanyBuilder) {
+        this.name = itCompanyBuilder.name;
+        this.persons = itCompanyBuilder.persons;
+        this.jobs = itCompanyBuilder.jobs;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List < Person > getPersons() {
+        return persons;
+    }
+
+    public void setPersons(List < Person > persons) {
+        this.persons = persons;
+    }
+
+    public List < Job > getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(List < Job > jobs) {
+        this.jobs = jobs;
+    }
+
+    @Override
+    public String toString() {
+        return "ITCompany{" +
+            "name='" + name + '\'' +
+            ",\n persons=" + persons +
+            ",\n jobs=" + jobs +
+            '}';
+    }
+
+    //Builder Class
+    public static class ITCompanyBuilder {
+        private String name;
+        private List < Person > persons;
+        private List < Job > jobs;
+
+        public ITCompanyBuilder setName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public ITCompanyBuilder setPersons(List < Person > persons) {
+            this.persons = persons;
+            return this;
+        }
+
+        public ITCompanyBuilder setJobs(List < Job > jobs) {
+            this.jobs = jobs;
+            return this;
+        }
+
+        public ITCompany build() {
+            return new ITCompany(this);
+        }
+    }
+}
+```
+Here you can notice that **ITCompany.java** class has a private constructor and can not be instantiated directly, so the only way to get an  ITCompany object is through the **ITCompanyBuilder** class. 
+
+## Prototype Design Pattern
+**Prototype Design Pattern** was implemented in: **Employee.java**,  **Employer.java**,  **JavaDeveloper.java**,  **PythonDeveloper.java** classes.
+Here is an example of **Prototype Design Pattern** implementation.
+```java
+//Prototype pattern
+public class Employer extends Person {
+
+    public Employer() {}
+    
+    public Employer(String name, String surname, int age) {
+        super(name, surname, age);
+    }
+
+    @Override
+    public void sayHi() {
+        System.out.println("Hi from employer");
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return new Employer(this.getName(), this.getSurname(), this.getAge());
+    }
+}
+```
+Notice that the `clone` method is overridden to provide a copy of an Employer object.
+
+
