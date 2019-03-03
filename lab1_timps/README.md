@@ -1,3 +1,4 @@
+
 # Laboratory work nr.1 (Creational Design Patterns)
 ## Task: create a program in which you will use 5 Creational Design Patterns
 #### During this laboratory work I used 5 Creational Design Pattern:
@@ -6,8 +7,8 @@
 - Abstract Factory
 - Builder
 - Prototype
-***
-### Singleton Design Pattern
+
+## Singleton Design Pattern
 **Java Singleton Pattern** is one of the **Gangs of Four Design patterns** and comes in the **Creational  Design Pattern** category.
 
 #### About Singleton: 
@@ -19,8 +20,8 @@
 -   Private constructor to restrict instantiation of the class from other classes.
 -   Private static variable of the same class that is the only instance of the class.
 -   Public static method that returns the instance of the class, this is the global access point for outer world to get the instance of the singleton class.
-***
-### Factory Design Pattern
+
+## Factory Design Pattern
 
 Factory design pattern is used when we have a super class with multiple sub-classes and based on input, we need to return one of the sub-class. This pattern take out the responsibility of instantiation of a class from client program to the factory class.
 
@@ -28,24 +29,24 @@ Some important points about Factory Design Pattern method are:
 
 1.  We can keep Factory class  **Singleton** or we can keep the method that returns the subclass as  **static**.
 2.  Notice that based on the input parameter, different subclass is created and returned.  `getComputer`  is the factory method.
-***
-### Abstract Factory Design Pattern
+
+## Abstract Factory Design Pattern
 The Abstract Factory Design Pattern is used to create families of related or dependent objects. It’s also sometimes called a factory of factories.
-***
-### Builder Design Pattern
+
+## Builder Design Pattern
 The Builder Design Pattern is another creational pattern designed to deal with the construction of comparatively complex objects.
 
 When the complexity of creating object increases, the Builder pattern can separate out the instantiation process by using another object (a builder) to construct the object.
 
 Builder pattern solves the issue with large number of optional parameters and inconsistent state by providing a way to build the object step-by-step and provide a method that will actually return the final Object.
-***
-### Prototype Design Pattern
+
+## Prototype Design Pattern
 Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing.
 
 Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs. Prototype design pattern uses java cloning to copy the object.
-
-## Task Implementation
-### Singleton and Factory Design Pattern
+***
+# Task Implementation
+## Singleton and Factory Design Pattern
 **Singleton** and **Factory** Design Pattern were implemented in: **PersonFactory.java** and **JobFactory.java** classes.
 Here is an example of implementation of both design patterns in **PersonFactory.java** class.
 ```java
@@ -79,8 +80,7 @@ You can read [here](https://www.google.com) about that kind of implementation.
 I could combine these 2 design patterns because according to the rules of **Factory Design Pattern**
 we can keep Factory class  **Singleton** or we can keep the method that returns the subclass as  **static**, so I chose to keep  Factory class  **Singleton**.
 
-***
-### Abstract Factory Design Pattern
+## Abstract Factory Design Pattern
 **Abstract Factory Design Pattern** was implemented using: **AbstractFactory .java**, **FactoryProvider.java**, **PersonFactory.java** and **JobFactory.java** classes.
 The code of **PersonFactory.java** and **JobFactory.java** is written  [above](#markdown-header-singleton-and-factory-design-pattern), so I won't put it here.
 
@@ -110,8 +110,8 @@ public class FactoryProvider {
 ```
 After that we can use received factory for creating objects as we did in **Factory Design Pattern**.
 
-***
-### Builder Design Pattern
+
+## Builder Design Pattern
 **Builder Design Pattern** was implemented in: **ITCompany.java** class.
 
 ```java
@@ -189,8 +189,8 @@ public class ITCompany {
 }
 ```
 Here you can notice that **ITCompany.java** class has a private constructor and can not be instantiated directly, so the only way to get an  ITCompany object is through the **ITCompanyBuilder** class. 
-***
-### Prototype Design Pattern
+
+## Prototype Design Pattern
 **Prototype Design Pattern** was implemented in: **Employee.java**,  **Employer.java**,  **JavaDeveloper.java**,  **PythonDeveloper.java** classes.
 Here is an example of **Prototype Design Pattern** implementation.
 ```java
