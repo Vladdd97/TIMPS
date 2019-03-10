@@ -5,14 +5,28 @@ import bridge.color.BlueColor;
 import bridge.shape.Circle;
 import bridge.shape.Shape;
 import bridge.shape.Square;
+import car.*;
+import car.workshop.Assembler;
+import car.workshop.Producer;
+
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("\n\tTest Adapter Pattern: ");
-        testAdapterPattern();
-        System.out.println("\n\tTest Bridge Pattern: ");
-        testBridgePattern();
+
+
+        Transport bmw = VehicleFactory.getVehicle(VehicleBrand.CAR_BMW);
+        Transport mercedes = VehicleFactory.getVehicle(VehicleBrand.CAR_MERCEDES);
+        Transport mercedesSport = new SportTransport(mercedes);
+
+        TargetInterface transportCompany = new TransportCompanyAdapter();
+        transportCompany.addOneTransport(bmw);
+        transportCompany.addOneTransport(mercedes);
+        transportCompany.addOneTransport(mercedesSport);
+
+        transportCompany.createTransports();
+        
     }
 
     public static void testBridgePattern(){
