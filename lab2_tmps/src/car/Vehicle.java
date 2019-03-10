@@ -2,11 +2,12 @@ package car;
 
 import car.workshop.Workshop;
 
-//bridge
+//bridge, decorator and composite structural design patterns
 public abstract class Vehicle implements Transport {
 
-    //intrinsic
+    //intrinsic property
     protected VehicleBrand vehicleBrand;
+    // extrinsic properties
     protected Workshop producer;
     protected Workshop assembler;
 

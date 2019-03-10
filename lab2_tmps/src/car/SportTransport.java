@@ -1,5 +1,6 @@
 package car;
 
+//decorator structural design pattern
 public class SportTransport extends TransportDecorator {
 
 

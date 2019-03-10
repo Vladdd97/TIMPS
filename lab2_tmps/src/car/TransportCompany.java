@@ -3,6 +3,7 @@ package car;
 import java.util.ArrayList;
 import java.util.List;
 
+//composite structural design pattern
 public class TransportCompany implements Transport {
 
     private List<Transport> transportList = new ArrayList<>();

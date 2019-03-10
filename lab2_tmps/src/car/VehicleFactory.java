@@ -5,6 +5,7 @@ import car.workshop.Producer;
 
 import java.util.HashMap;
 
+//flyweight structural design pattern
 public class VehicleFactory {
 
     private static final HashMap<VehicleBrand,Vehicle> vehicles = new HashMap<>();

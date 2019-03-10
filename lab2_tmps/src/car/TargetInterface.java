@@ -1,5 +1,6 @@
 package car;
 
+//adapter structural design pattern
 public interface TargetInterface {
 
     public void createTransports();

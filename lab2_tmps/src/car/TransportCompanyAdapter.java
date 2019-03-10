@@ -1,5 +1,6 @@
 package car;
 
+//adapter structural design pattern
 public class TransportCompanyAdapter extends TransportCompany implements TargetInterface {
 
 

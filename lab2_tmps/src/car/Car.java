@@ -2,6 +2,7 @@ package car;
 
 import car.workshop.Workshop;
 
+//bridge structural design pattern
 public class Car extends Vehicle {
 
 

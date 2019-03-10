@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace1ff28-f8ba-455e-963f-0bc52b8f21ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2_tmps/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/adapter/Socket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/adapter/SocketAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/adapter/SocketClassAdapterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/adapter/Volt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/bridge/color/BlackColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/bridge/color/BlueColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/bridge/color/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/bridge/shape/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/bridge/shape/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2_tmps/bridge/shape/Square.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Socket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/SocketAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/SocketClassAdapterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Volt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/color/BlackColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/color/BlueColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/color/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/shape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/shape/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/SportTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/SportTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/TargetInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/TargetInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/TransportCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/TransportCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/TransportCompanyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/TransportCompanyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/TransportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/TransportDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/car/VehicleFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +44,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/Transport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/VehicleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/TransportDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#183#184#0" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
@@ -41,26 +88,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/TargetInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/TransportCompanyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding>
                 <element signature="e#156#157#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#447#448#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
               </folding>
@@ -69,10 +107,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/TargetInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/SportTransport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/car/Bike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -81,40 +146,12 @@
         <entry file="file://$PROJECT_DIR$/src/car/TransportCompany.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="50" />
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/Vehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/Transport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -137,17 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/adapter/Volt.java" />
-        <option value="$PROJECT_DIR$/src/adapter/Socket.java" />
-        <option value="$PROJECT_DIR$/src/adapter/SocketAdapter.java" />
-        <option value="$PROJECT_DIR$/src/adapter/SocketClassAdapterImpl.java" />
-        <option value="$PROJECT_DIR$/src/bridge/Color.java" />
-        <option value="$PROJECT_DIR$/src/bridge/Shape.java" />
-        <option value="$PROJECT_DIR$/src/bridge/Square.java" />
-        <option value="$PROJECT_DIR$/src/bridge/Circle.java" />
-        <option value="$PROJECT_DIR$/src/bridge/BlueColor.java" />
-        <option value="$PROJECT_DIR$/src/bridge/BlackColor.java" />
-        <option value="$PROJECT_DIR$/src/bridge/color/BlackColor.java" />
         <option value="$PROJECT_DIR$/src/bridge/shape/Square.java" />
         <option value="$PROJECT_DIR$/src/decorator/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/car/workshop/Workshop.java" />
@@ -156,18 +182,14 @@
         <option value="$PROJECT_DIR$/src/car/workshop/Car.java" />
         <option value="$PROJECT_DIR$/src/car/CarBrand.java" />
         <option value="$PROJECT_DIR$/src/car/VehicleInterface.java" />
-        <option value="$PROJECT_DIR$/src/car/Car.java" />
         <option value="$PROJECT_DIR$/src/car/CarDecorator.java" />
         <option value="$PROJECT_DIR$/src/car/SportCar.java" />
-        <option value="$PROJECT_DIR$/src/car/Bike.java" />
         <option value="$PROJECT_DIR$/src/car/bridge/Bike.java" />
         <option value="$PROJECT_DIR$/src/car/bridge/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/car/VehicleDecorator.java" />
         <option value="$PROJECT_DIR$/src/car/SportVehicle.java" />
         <option value="$PROJECT_DIR$/src/car/workshop/Assembler.java" />
-        <option value="$PROJECT_DIR$/src/car/SportTransport.java" />
         <option value="$PROJECT_DIR$/src/car/VehicleBrand.java" />
-        <option value="$PROJECT_DIR$/src/car/VehicleFactory.java" />
         <option value="$PROJECT_DIR$/src/car/VehicleCreator.java" />
         <option value="$PROJECT_DIR$/src/car/TransportCreator.java" />
         <option value="$PROJECT_DIR$/src/car/TrabsportCreatorAdapter.java" />
@@ -177,13 +199,32 @@
         <option value="$PROJECT_DIR$/src/car/proxy/CommandExecutor.java" />
         <option value="$PROJECT_DIR$/src/car/proxy/CommandExecutorImpl.java" />
         <option value="$PROJECT_DIR$/src/car/proxy/CommandExecutorProxy.java" />
-        <option value="$PROJECT_DIR$/src/car/TransportCompany.java" />
-        <option value="$PROJECT_DIR$/src/car/TargetInterface.java" />
-        <option value="$PROJECT_DIR$/src/car/TransportCompanyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/car/Transport.java" />
+        <option value="$PROJECT_DIR$/src/building/Color/Color.java" />
+        <option value="$PROJECT_DIR$/src/building/Color/BlueColor.java" />
+        <option value="$PROJECT_DIR$/src/building/Color/WhiteColor.java" />
+        <option value="$PROJECT_DIR$/src/building/School.java" />
+        <option value="$PROJECT_DIR$/src/building/Hotel.java" />
+        <option value="$PROJECT_DIR$/src/building/LuxuryBuilding.java" />
+        <option value="$PROJECT_DIR$/src/building/LuxuryConstruction.java" />
+        <option value="$PROJECT_DIR$/src/building/BuildingType.java" />
+        <option value="$PROJECT_DIR$/src/building/BuildingFactory.java" />
+        <option value="$PROJECT_DIR$/src/building/Construction.java" />
+        <option value="$PROJECT_DIR$/src/building/ConstructionDecorator.java" />
+        <option value="$PROJECT_DIR$/src/building/City.java" />
+        <option value="$PROJECT_DIR$/src/building/TargetInterface.java" />
+        <option value="$PROJECT_DIR$/src/building/CityAdapter.java" />
+        <option value="$PROJECT_DIR$/src/building/Building.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/car/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/car/Transport.java" />
+        <option value="$PROJECT_DIR$/src/car/VehicleFactory.java" />
+        <option value="$PROJECT_DIR$/src/car/TransportCompanyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/car/TransportCompany.java" />
         <option value="$PROJECT_DIR$/src/car/TransportDecorator.java" />
+        <option value="$PROJECT_DIR$/src/car/TargetInterface.java" />
+        <option value="$PROJECT_DIR$/src/car/SportTransport.java" />
+        <option value="$PROJECT_DIR$/src/car/Car.java" />
+        <option value="$PROJECT_DIR$/src/car/Bike.java" />
       </list>
     </option>
   </component>
@@ -193,7 +234,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -221,14 +264,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552233860676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552237304507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -271,18 +314,27 @@
       <option name="presentableId" value="Default" />
       <updated>1551898253004</updated>
       <workItem from="1551898256660" duration="4574000" />
-      <workItem from="1552223718720" duration="10133000" />
+      <workItem from="1552223718720" duration="12279000" />
+      <workItem from="1552236203965" duration="984000" />
     </task>
+    <task id="LOCAL-00001" summary="lab2 tmps implemented 5 structural design patterns">
+      <created>1552234032112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552234032112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14707000" />
+    <option name="totallyTimeSpent" value="17837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-380" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +343,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,12 +368,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab2 tmps implemented 5 structural design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2 tmps implemented 5 structural design patterns" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/car/VehicleFactory.java</url>
-          <line>16</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -329,135 +385,18 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adapter/Volt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/SocketAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/SocketClassAdapterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/shape/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/color/BlackColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/shape/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/color/BlueColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge/color/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/CarBrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/Bike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/Volt.java" />
+    <entry file="file://$PROJECT_DIR$/src/adapter/Socket.java" />
+    <entry file="file://$PROJECT_DIR$/src/adapter/SocketAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/src/adapter/SocketClassAdapterImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/shape/Shape.java" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/shape/Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/color/BlackColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/shape/Square.java" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/color/BlueColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/bridge/color/Color.java" />
+    <entry file="file://$PROJECT_DIR$/src/decorator/Vehicle.java" />
+    <entry file="file://$PROJECT_DIR$/src/car/CarBrand.java" />
     <entry file="file://$PROJECT_DIR$/src/car/workshop/Workshop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -487,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/SportTransport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/car/VehicleBrand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -501,98 +433,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/VehicleFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/car/TransportCreatorAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/src/car/TransportCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/car/TransportAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/src/car/proxy/CommandExecutorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/car/proxy/CommandExecutor.java" />
+    <entry file="file://$PROJECT_DIR$/src/car/proxy/CommandExecutorProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/building/Color/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/Color/BlueColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/TransportCreatorAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/building/Color/WhiteColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/TransportCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/TransportAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/building/BuildingType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/building/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/proxy/CommandExecutorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/proxy/CommandExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/building/School.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/proxy/CommandExecutorProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/building/LuxuryConstruction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/TargetInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/building/ConstructionDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="221">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/TargetInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/CityAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/Construction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/BuildingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/building/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/VehicleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/TransportCompanyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding>
             <element signature="e#156#157#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
             <element signature="e#447#448#0" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
           </folding>
@@ -602,43 +621,19 @@
     <entry file="file://$PROJECT_DIR$/src/car/TransportCompany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="50" />
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/Transport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/TransportDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#183#184#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
@@ -646,13 +641,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/car/Transport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/TargetInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/SportTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
