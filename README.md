@@ -7,4 +7,4 @@ Group: FAF-161
 GitHub nickname: Vladdd97
 
 ## Contained courses
-TIMPS Course
+TMPS Course
