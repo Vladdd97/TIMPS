@@ -13,17 +13,7 @@ public class VehicleFactory {
 
 
     public static Vehicle getVehicle(String category, String name, BuildVehicleTemplateStrategy strategy, VehicleType type) {
-
-        boolean typeExist = false;
         Vehicle vehicle = new NullVehicle(NULL_VEHICLE);
-
-        for (VehicleType vehicleType : VehicleType.values()) {
-            if (type.equals(vehicleType) && !type.equals(VehicleType.ALL)) {
-                typeExist = true;
-            }
-        }
-
-        if (typeExist) {
 
 // simulate the case the CROSSOVER type doesn't exist in our DB
             switch (type) {
@@ -43,9 +33,6 @@ public class VehicleFactory {
                     System.out.println("no match");
 
             }
-
-
-        }
 
         return vehicle;
     }
