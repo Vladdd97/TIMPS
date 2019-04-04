@@ -1,6 +1,6 @@
 package vehicle.chain;
 
-import vehicle.Vehicle;
+import vehicle.nullobject.Vehicle;
 
 public class PaintChainedProcedure implements ChainProcedure {
 

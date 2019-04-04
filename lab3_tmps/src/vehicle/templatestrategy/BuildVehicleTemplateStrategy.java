@@ -1,4 +1,4 @@
-package vehicle;
+package vehicle.templatestrategy;
 
 public abstract class BuildVehicleTemplateStrategy {
 
@@ -9,7 +9,7 @@ public abstract class BuildVehicleTemplateStrategy {
         addWheels();
         addDashboard();
         addEnergySource();
-        System.out.println("vehicle.Vehicle is build");
+        System.out.println("vehicle.nullobject.Vehicle is build");
     }
 
     public abstract void buildFrame();

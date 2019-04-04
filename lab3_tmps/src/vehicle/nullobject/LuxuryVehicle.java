@@ -1,4 +1,7 @@
-package vehicle;
+package vehicle.nullobject;
+
+import vehicle.iterator.VehicleType;
+import vehicle.templatestrategy.BuildVehicleTemplateStrategy;
 
 public class LuxuryVehicle extends Vehicle {
 

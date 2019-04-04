@@ -1,4 +1,3 @@
-import vehicle.*;
 import vehicle.chain.BuildChainProcedure;
 import vehicle.chain.ChainProcedure;
 import vehicle.chain.PaintChainedProcedure;
@@ -6,6 +5,12 @@ import vehicle.chain.TestChainProcedure;
 import vehicle.iterator.VehicleCollection;
 import vehicle.iterator.VehicleCollectionImpl;
 import vehicle.iterator.VehicleIterator;
+import vehicle.iterator.VehicleType;
+import vehicle.nullobject.SportVehicle;
+import vehicle.nullobject.Vehicle;
+import vehicle.nullobject.VehicleFactory;
+import vehicle.templatestrategy.BuildHatchbackVehicleTemplateStrategy;
+import vehicle.templatestrategy.BuildSedanVehicleTemplateStrategy;
 
 public class Main {
 
@@ -41,9 +46,11 @@ public class Main {
 
     public static VehicleCollection getVehicles() {
         VehicleCollection constructionCollection = new VehicleCollectionImpl();
-        constructionCollection.add(new SportVehicle("FORD", new BuildHatchbackVehicleTemplateStrategy(), VehicleType.HATCHBACK));
-        constructionCollection.add(new SportVehicle("TOYOTA", new BuildHatchbackVehicleTemplateStrategy(), VehicleType.HATCHBACK));
-        constructionCollection.add(new SportVehicle("BMW", new BuildSedanVehicleTemplateStrategy(), VehicleType.SEDAN));
+
+        constructionCollection.add(VehicleFactory.getVehicle("sport_car", "FORD", new BuildHatchbackVehicleTemplateStrategy(), VehicleType.HATCHBACK));
+        // the iterator will ignore CROSSOVER type as it will be a nullable object
+        constructionCollection.add(VehicleFactory.getVehicle("sport_car", "TOYOTA", new BuildHatchbackVehicleTemplateStrategy(), VehicleType.CROSSOVER));
+        constructionCollection.add(VehicleFactory.getVehicle("sport_car", "BMW", new BuildHatchbackVehicleTemplateStrategy(), VehicleType.SEDAN));
 
 
         return constructionCollection;

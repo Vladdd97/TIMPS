@@ -1,4 +1,7 @@
-package vehicle;
+package vehicle.nullobject;
+
+import vehicle.iterator.VehicleType;
+import vehicle.templatestrategy.BuildVehicleTemplateStrategy;
 
 public abstract class Vehicle {
 
@@ -10,6 +13,10 @@ public abstract class Vehicle {
         this.name = name;
         this.strategy = strategy;
         this.type = type;
+    }
+
+    public Vehicle(String name) {
+        this.name = name;
     }
 
     public String getName() {
@@ -25,10 +32,14 @@ public abstract class Vehicle {
 
     @Override
     public String toString() {
-        return "vehicle.Vehicle{" +
+        return "vehicle.nullobject.Vehicle{" +
                 "name='" + name + '\'' +
                 ", strategy=" + strategy +
                 ", type=" + type +
                 '}';
+    }
+
+    public boolean isNull() {
+        return false;
     }
 }

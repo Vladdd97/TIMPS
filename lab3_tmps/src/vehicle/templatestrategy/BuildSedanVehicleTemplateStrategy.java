@@ -1,4 +1,4 @@
-package vehicle;
+package vehicle.templatestrategy;
 
 public class BuildSedanVehicleTemplateStrategy extends BuildVehicleTemplateStrategy {
 

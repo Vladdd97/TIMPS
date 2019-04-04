@@ -1,7 +1,6 @@
 package vehicle.iterator;
 
-import vehicle.Vehicle;
-import vehicle.VehicleType;
+import vehicle.nullobject.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,10 +44,10 @@ public class VehicleCollectionImpl implements VehicleCollection {
         public boolean hasNext() {
             while (position < vehicleList.size()) {
                 Vehicle vehicle = vehicleList.get(position);
-                if (vehicle.getType().equals(type) || type.equals(VehicleType.ALL)) {
+                if (vehicle.getType() != null && (vehicle.getType().equals(type) || type.equals(VehicleType.ALL))) {
                     return true;
                 } else
-                position++;
+                    position++;
             }
             return false;
         }

@@ -1,6 +1,6 @@
 package vehicle.iterator;
 
-import vehicle.Vehicle;
+import vehicle.nullobject.Vehicle;
 
 public interface VehicleIterator {
 
