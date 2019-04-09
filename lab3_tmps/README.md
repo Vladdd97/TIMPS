@@ -3,7 +3,7 @@
 #### During this laboratory work I used 5 Behavioral Design Pattern:
 - Template
 - Strategy
-- Visitor
+- Null Object pattern
 - Iterator
 - Chain
 
@@ -334,4 +334,32 @@ public class BuildChainProcedure implements ChainProcedure {
 -   Creating the chain carefully is very important otherwise there might be a case that the request will never be forwarded to a particular processor or there are no objects in the chain who are able to handle the request.
 -   Chain of Responsibility design pattern is good to achieve lose coupling but it comes with the trade-off of having a lot of implementation classes and maintenance problems if most of the code is common in all the implementations.
 
+
+## Null Object Design Pattern
+
+
+#### About Null Object pattern  : 
+
+In Null Object pattern, a null object replaces check of NULL object instance. Instead of putting if check for a null value, Null Object reflects a do nothing relationship. Such Null object can also be used to provide default behaviour in case data is not available.
+
+In Null Object pattern, we create an abstract class specifying various operations to be done (in my case it is **VehicleIterator.java** ), concrete classes extending this class and a null object class providing do nothing implemention of this class and will be used seemlessly where we need to check null value.
+
+So here is the null object class **NullVehicle.java**
+
+```java
+public class NullVehicle extends Vehicle {  
+  
+    public NullVehicle(String name) {  
+        super(name);  
+  }  
+    @Override  
+  public void build() {  
+        System.out.println("Null object can't be build");  
+  }  
+    @Override  
+  public boolean isNull() {  
+        return true;  
+  }  
+}
+```
 
